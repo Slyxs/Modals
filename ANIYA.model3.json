@@ -1,59 +1,111 @@
 {
-  "Version": 3,
-  "FileReferences": {
-    "Moc": "ANIYA.moc3",
-    "Textures": [
-      "ANIYA.8192/texture_00.png",
-      "ANIYA.8192/texture_01.png",
-      "ANIYA.8192/texture_02.png",
-      "ANIYA.8192/texture_03.png",
-      "ANIYA.8192/texture_04.png",
-      "ANIYA.8192/texture_05.png"
-    ],
-    "Physics": "ANIYA.physics3.json",
-    "DisplayInfo": "ANIYA.cdi3.json",
-    "Expressions": [
-      { "Name": "0", "File": "0.exp3.json" },
-      { "Name": "1", "File": "1.exp3.json" },
-      { "Name": "2", "File": "2.exp3.json" },
-      { "Name": "3", "File": "3.exp3.json" },
-      { "Name": "4", "File": "4.exp3.json" },
-      { "Name": "5", "File": "5.exp3.json" },
-      { "Name": "6", "File": "6.exp3.json" },
-      { "Name": "7", "File": "7.exp3.json" },
-      { "Name": "8", "File": "8.exp3.json" },
-      { "Name": "9", "File": "9.exp3.json" },
-      { "Name": "Q", "File": "Q.exp3.json" },
-      { "Name": "t", "File": "t.exp3.json" },
-      { "Name": "u", "File": "u.exp3.json" },
-      { "Name": "W", "File": "W.exp3.json" },
-      { "Name": "y", "File": "y.exp3.json" }
-    ],
-    "Motions": {
-      "": [
-        { "File": "Scene1.motion3.json" },
-        { "File": "Scene2.motion3.json" },
-        { "File": "Scene3.motion3.json" },
-        { "File": "zoulu.motion3.json" }
-      ]
-    }
-  },
-  "Groups": [
-    {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
-      "Ids": [
-        "ParamEyeLOpen",
-        "ParamEyeROpen"
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Name": "LipSync",
-      "Ids": [
-        "ParamMouthOpenY"
-      ]
-    }
-  ],
-  "HitAreas": []
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ANIYA.moc3",
+		"Textures": [
+			"ANIYA.8192/texture_00.png",
+			"ANIYA.8192/texture_01.png",
+			"ANIYA.8192/texture_02.png",
+			"ANIYA.8192/texture_03.png",
+			"ANIYA.8192/texture_04.png",
+			"ANIYA.8192/texture_05.png"
+		],
+		"Physics": "ANIYA.physics3.json",
+		"DisplayInfo": "ANIYA.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "0",
+				"File": "0.exp3.json"
+			},
+			{
+				"Name": "1",
+				"File": "1.exp3.json"
+			},
+			{
+				"Name": "2",
+				"File": "2.exp3.json"
+			},
+			{
+				"Name": "3",
+				"File": "3.exp3.json"
+			},
+			{
+				"Name": "4",
+				"File": "4.exp3.json"
+			},
+			{
+				"Name": "5",
+				"File": "5.exp3.json"
+			},
+			{
+				"Name": "6",
+				"File": "6.exp3.json"
+			},
+			{
+				"Name": "7",
+				"File": "7.exp3.json"
+			},
+			{
+				"Name": "8",
+				"File": "8.exp3.json"
+			},
+			{
+				"Name": "9",
+				"File": "9.exp3.json"
+			},
+			{
+				"Name": "Q",
+				"File": "Q.exp3.json"
+			},
+			{
+				"Name": "t",
+				"File": "t.exp3.json"
+			},
+			{
+				"Name": "u",
+				"File": "u.exp3.json"
+			},
+			{
+				"Name": "W",
+				"File": "W.exp3.json"
+			},
+			{
+				"Name": "y",
+				"File": "y.exp3.json"
+			}
+		],
+		"Motions": {
+			"": [
+				{
+					"File": "Scene1.motion3.json"
+				},
+				{
+					"File": "Scene2.motion3.json"
+				},
+				{
+					"File": "Scene3.motion3.json"
+				},
+				{
+					"File": "zoulu.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
 }
